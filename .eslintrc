@@ -9,9 +9,15 @@
 		"semi": "off",
 		"arrow-parens": "off",
 		"comma-dangle": "off",
-		"require-jsdoc": "off"
+		"require-jsdoc": "off",
+		"indent": [
+			2,
+			"tab"
+		],
+		"no-tabs": 0
 	},
 	"extends": [
-		"eslint:recommended", "google"
+		"eslint:recommended",
+		"google"
 	]
 }
